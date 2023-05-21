@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mailchimp Form</title>
+    <link rel="stylesheet" href="./css/chimp.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="logo-container">
+            <img src="./img/chimp_logo.png" alt="logo mailchimp" class="logo-img">
+        </div>
+        <div class="form-container font-style">
+            <h1 class="font-height">Welcome to Mailchimp</h1>
+            <p >Find your people. Engage your customers. Build your brand. Do it all 
+            whith Mailchimp's Marketing Platform. Alrady have an accoun? <a href="">Log in</a></p>
+            <form action="">
+                <fieldset class="no-border">
+                    <legend>Datos</legend>
+                    <div>Email</div>
+                    <div><label for="email"><input type="email" name="email" class="caja-input"></label></div>
+                    <div>Username</div>
+                    <div><label for="username"><input type="text" name="username" class="caja-input"></label></div>
+                    <div class="box-password"><span>Password</span><span class=""><img src="img/eye_icon.png" class="icon-img">Show</span></div>
+                    <div><label for="password"><input type="password" name="password" class="caja-input" required pattern="((?=.*\d)(?=.*[A-Z])(?=.*[a-z])(?=.*\W)\w.{6,18}\w)"></label></div>
+                    <section class="listas">
+                        <ul class="list">
+                            <li><span>One lower character</span> </li>
+                            <li><span>One uppercase character</span></li>
+                            <li><span>One number</span> </li>
+                        </ul>
+                        <ul class="list">
+                            <li><span>One special character</li> 
+                            <li><span>8 characters minimum </span></li>
+                        </ul>
+                    </section>
+                    <div class="endform">
+                        <div class="button-container">
+                            <input type="submit" value="Sign Up" class="button-sign">
+                        </div>
+                        <div>
+                            <input type="checkbox" name="accept" class="check-accept">
+                        </div>
+                        <div>I don't want to receive emails about new MailChimps products,
+                                 best practices, or especial offers.
+                        </div>
+                    </div>
+                </fieldset>
+        </form>
+        <p class="final-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nesciunt, porro deserunt quam alias magnam impedit quasi rem deleniti reiciendis illo cum nostrum voluptas aut nam ullam consectetur eos voluptatum?</p>
+        </div>
+
+    </div>
+</body>
+</html>

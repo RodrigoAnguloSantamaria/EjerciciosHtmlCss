@@ -1,0 +1,103 @@
+.font-style{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-container{
+    width: 80%;
+    height: 600px;
+    display: flex;
+   
+    margin: 0 auto;
+    
+  
+}
+.logo-container{
+    width: 40%;
+    height: 600px;
+    text-align: right;
+    
+    padding-right: 10px;
+   
+}
+.logo-img{
+    width: 50%;
+    height: auto;
+    
+    align-self: center;
+}
+.form-container{
+    width: 40%;
+    height: auto;
+    
+    justify-content: left;
+}
+.form-container a{
+    text-decoration: none;
+    color: aquamarine;
+}
+.font-height{
+    font-weight:300;
+}
+.no-border{
+    border: none;
+    padding: 0px;
+    margin-top: 30px;
+    
+}
+legend{ display:none}
+.caja-input{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 30px;
+    margin-top:5px;
+    margin-bottom: 20px;
+}
+.box-password{
+    display: flex;
+    justify-content: space-between;
+}
+.icon-img{
+    width: 30px;
+    height: 15px;
+}
+.listas{
+    width: 100%;
+    display: flex;
+    text-align: left;
+}
+.list{
+    color:aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: small;
+
+}
+.list span{
+    color:black;
+}
+.endform{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+
+}
+.button-container{
+    width:40%;
+    
+}
+.button-sign{
+    width:100%;
+    height: 40px;
+    color: gray;
+}
+.check-accept{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+.final-p{
+    font-size: small;
+    text-align: justify;
+    margin-top: 30px;
+}

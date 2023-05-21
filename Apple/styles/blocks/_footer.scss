@@ -1,0 +1,96 @@
+.b-footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &nav{
+        width: 90%;
+    }
+    &__img{
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }
+    &__ico{
+        height: 20px;
+        width: 20px;
+    }
+    &__ul{
+        width: 90%;
+        margin-top: 20px;
+        padding-left: 0px;
+        &link{
+            text-decoration: none;
+            color: black;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+    &__div{
+        display: none;
+
+    }
+    &div__column{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items:flex-start;
+    }
+    &div__ul{
+        width: 90%;
+        margin: 0px;
+        padding-left: 0px;
+        &link{
+            text-decoration: none;
+            color: black;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+    &__bottom{
+        width: 90%;
+        margin-top: 20px;
+        &link{
+            color:black;
+            font-size: small;
+            text-decoration: none;
+            margin-right: 15px;
+            &:hover{
+                text-decoration: underline;
+            }
+            &::after{
+                content: " |";
+                margin-left: 10px;
+                
+            }
+            &--last{
+                color:black;
+                font-size: small;
+                text-decoration: none;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    
+}
+@media (min-width:832px){
+    .b-footer__ul{
+        display: none;
+    }
+    .b-footer__div{
+        width: 90%;
+        font-size: 12px;
+        flex-direction: row;
+        display: flex;
+       
+        margin-top: 20px;
+    }
+
+}

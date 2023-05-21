@@ -1,0 +1,51 @@
+.b-text{
+    &__large{
+        font-size: 30;
+    }
+    &__larger{
+        font-size: 46;
+    }
+    &__medium{
+        font-size: medium;
+    }
+    &__small{
+        font-size: small;
+    }
+    &__xl{
+        font-size: 56px;
+    }
+    &__orange{
+        color:#9a3e00;
+    }
+    &__blue{
+        color:#0071e3;
+    }
+    &__black{
+        color: black;
+    }
+    &__white{
+        color: white;
+    }
+    &__gray{
+        color: gray;
+    }
+    &__bold{
+        font-weight: 800;
+    }
+    &__center{
+        text-align: center;
+    }
+    &__right{
+        text-align: right;
+    }
+    &__left{
+        text-align: left;
+    }
+    &__margintb{
+        margin: 10px 0px;
+    }
+    &__margint{
+        margin-top: 20px;
+    }
+
+}

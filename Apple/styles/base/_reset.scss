@@ -1,0 +1,14 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    @font-face {
+        font-family: SfPro;
+        src: url("../../fonts/SFProText.ttf");
+    }
+    font-family: SfPro,Helvetica;
+   /* font-size: small;*/
+    
+}

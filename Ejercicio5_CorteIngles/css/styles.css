@@ -1,0 +1,447 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: grey;
+    background-color: rgb(217, 209, 209);
+
+}
+/* HEADER */
+.b-header{
+    width: 100%;
+    height: 200px;
+    
+
+}
+.b-header__topdiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.b-header__img{
+    width:25%;
+    height: 100px;
+}
+.b-header__nav1{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.b-header__ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.b-header__ico{
+    height: 15px;
+    width: 15px;
+    margin-left: 10px;
+}
+.b-header__nav2{
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.b-header__imgmenu{
+    width: 50px;
+    height: 50px;
+}
+.b-header__ul2{
+    background-color: white;
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.b-header__li{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 50px;
+   
+}
+.b-header__li:hover{
+    height: 47px;
+    border-bottom: 3px solid rgb(39, 155, 39);
+}
+.b-header__greenbox{
+    width:50px;
+    height: 50px;
+    background-color: rgb(39, 155, 39);
+    position: relative;
+    text-align: center;
+
+
+}
+.b-header__span{
+    font-size: small;
+    color: white;
+    background-color: rgb(39, 155, 39);
+}
+.b-header__greenbox::after{
+    content: "☰";
+    
+    top:35%;
+    left: 35%;
+    position: absolute;
+    color: white;
+}
+
+/* FIN HEADER */
+
+/* INICIO MAIN */
+/* --------------------------------------------------------------------*/
+/* BARRA NAVEGACION SUPERIOR */
+.b-main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.b-main__divtop{
+    width:80%;
+
+}
+.b-main__nav1{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.b-main__span{
+    margin-right: 10px;
+}
+.b-main__nav2{
+    display: flex;
+    justify-content: flex-start;
+    gap:40px;
+}
+.b-divtop__button{
+    background-color: rgb(39, 155, 39);
+    color: white;
+    width: 30%;
+    height: 55px;
+    
+    text-align: center;
+    border: none;
+    /*width:auto;*/
+
+}
+.b-divtop__button:hover{
+    font-weight: bold;
+}
+/* -------------FIN BARRA NAVEGACION SUPERIOR------------------------*/
+/* --------------------------------------------------------------------*/
+
+
+/* -------------CONTENEDOR DE CONTENIDO PRINCIPAL------------------------*/
+.b-container__div{
+    width: 80%;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.b-container__item{
+    width: 48%;
+    background-color: white;
+    margin-bottom: 20px;
+    position:relative;
+}
+
+.b-img__position{
+    position: absolute;
+  
+    top:5%;
+    left: 5%;
+    /* z-index: 35;*/
+    width: 0; 
+    height: 0; 
+    border-left: 150px solid rgb(39, 155, 39);
+    background-color: transparent;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent; 
+  
+   
+}
+.b-text__position{
+    position:absolute;
+    top: 13%;
+    left: 7%;
+    color:white;
+    background-color: transparent;
+    
+    
+}
+
+.b-container__img{
+    width:100%;
+    height: 250px;
+}
+.b-container__text{
+    color:black;
+    font-size: large;
+    background-color: white;
+
+}
+.b-container__text--small{
+    font-size: small;
+    color: grey;
+    background-color: white;
+
+}
+.b-item__down{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 10px 10px 10px;
+    background-color: white;
+}
+.b-item__span{
+    font-size: smaller;
+    color: grey;
+    background-color: white;
+}
+.b-item__span--color{
+    font-size: large;
+    color: rgb(39, 155, 39);
+    background-color: white;
+    font-weight: 600;
+
+}
+.b-item__section{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+}
+.b-item__button{
+    width: 35%;
+    height: 35px;
+    color:rgb(39, 155, 39);
+    background-color: white;
+    border: 1px solid grey;
+    font-weight: 600;
+}
+.b-item__button:hover{
+    color:rgb(5, 97, 5);
+}
+
+
+/* -------------FIN CONTENEDOR CONTENIDO PRINCIPAL----------------------*/
+
+
+/* -------------INICIO SECCION OPERTAS DE VIAJES---------------------*/
+.b-main__section{
+    width: 80%;
+   
+  
+}
+.b-section__titulo{
+    font-size: large;
+    color: black;
+    background-color: white;
+    padding: 10px;
+
+}
+.b-section__text{
+    font-size:medium;
+    color: grey;
+    background-color: white;
+    padding: 10px;
+
+}
+/* -------------FIN SECCION OPERTAS DE VIAJES---------------------*/
+
+/* -------------INICIO MENU NAVEGACION CATEGORIAS INFERIOR---------------------*/
+.b-divdown{
+    width: 80%;
+    height: 100px;
+    margin-top: 30px;
+    border-top: 1px solid rgb(194, 187, 187);
+    display: flex;
+    justify-content: space-between;
+}
+.b-divdown__item{
+    width: 15%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgb(194, 187, 187);
+    border-right: 1px solid rgb(194, 187, 187);
+}
+.b-divdown__img{
+    width: 40px;
+    height: 40px;
+    
+}
+/* -------------FIN MENU NAVEGACION CATEGORIAS INFERIOR---------------------*/
+
+/* -------------INICIO PUBLICIADD INFERIOR---------------------*/
+.b-publi{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top:30px;
+}
+.b-publi__item{
+    width: 30%;
+    height: 200px;
+    position: relative;
+}
+.b-publi__img{
+    width: 100%;
+    height: 200px;
+}
+.b-publi__button{
+    width:40%;
+    height: 50px;
+    border: 3px solid;
+    border-color: white;
+    background-color: transparent;
+    color:white;
+    position: absolute;
+    top:5%;
+    left: 5%;
+}
+.b-publi__button:hover{
+    border-color: cadetblue;
+    font-weight:bold;
+}
+/* -------------INICIO PUBLICIADD INFERIOR---------------------*/
+
+/*---------------------------------------------------*/
+/*------------------------DIN MAIN-----------------------------------*/
+
+/*------------------------INICIO FOOTER-----------------------------------*/
+.b-footer{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.b-footer__divtop{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+.b-footer__item{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+.b-footer__text{
+    color: rgb(39, 155, 39);
+    font-size: larger;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.b-footer__ul{
+    text-align: center;
+    width: 100%;
+}
+.b-footer__divline{
+    width: 5%;
+    text-align: left;
+}
+.b-footer__line{
+    width: 5%;
+    height: 1px;
+    background-color: grey;
+    position: absolute;
+    top:10%;
+
+    
+}
+.b-footer__itemdisplay{
+    display: flex;
+    justify-content: space-around;
+}
+.b-footer__ul2{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*----------INICIO CAPA GEOMETRICA PARA FOOTER---------------*/
+
+.b-footer__background{
+    width: 100%;
+    height: 180px;
+}
+.b-footer__endimg{
+    width: 100%;
+    border: none;
+}
+/*----------FIN CAPA GEOMETRICA PARA FOOTER---------------*/
+/*----------INICIO DIVDOWN PARA FOOTER---------------*/
+.b-footer__divdown{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    background-color: white;
+    
+}
+.b-divdown__item1{
+    width: 20%;
+    height: 150px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: white;
+}
+.b-divdown__text{
+    font-size: larger;
+    text-align: right;
+    background-color: white;
+}
+.b-divdown__imgdown{
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    top: 10%;
+    left: 10%;
+    background-color: white;
+}
+.b-divdown__item2{
+    width: 20%;
+    height: 150px;
+    display: flex;
+}
+.b-divdown__ico{
+    width: 50px;
+    height: 50px;
+}
+
